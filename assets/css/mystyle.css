@@ -101,8 +101,14 @@ section {
   min-height: 16rem;
 }
 
+.heading h2{
+  font-size: 3rem;
+  color: var(--white);
+  text-transform: capitalize;
+}
+
 .heading h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--white);
   text-transform: capitalize;
 }
