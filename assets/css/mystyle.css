@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --red: #ee2b47;
-  --green: #3fc979;
+  --red: #b03a2e;
+  --green: #42b883;
   --white: #eeeeee;
   --black: #26282b;
   --light-black: #393e46;
@@ -125,11 +125,9 @@ section {
   font-size: 2rem;
   font-weight: 600;
   color: var(--green);
+  cursor: pointer;
 }
 
-.heading p a:hover {
-  color: var(--black);
-}
 
 .header {
   position: sticky;
