@@ -2,6 +2,7 @@
 
 :root {
   --red: #ee2b47;
+  --green: #3fc979;
   --white: #eeeeee;
   --black: #26282b;
   --light-black: #393e46;
@@ -32,7 +33,7 @@ html {
 }
 
 body {
-  background-color: var(--red);
+  background-color: var(--white);
 }
 
 ::-webkit-scrollbar {
@@ -45,7 +46,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--yellow);
+  background-color: var(--green);
   border-radius: 5rem;
 }
 
@@ -91,7 +92,7 @@ section {
 }
 
 .heading {
-  background-color: var(--black);
+  background-color: var(--white);
   text-align: center;
   display: flex;
   align-items: center;
@@ -103,28 +104,31 @@ section {
 
 .heading h2{
   font-size: 3rem;
-  color: var(--white);
+  color: var(--black);
   text-transform: capitalize;
 }
 
 .heading h3 {
   font-size: 3rem;
-  color: var(--white);
+  color: var(--black);
+  letter-spacing: 0.1rem;
   text-transform: capitalize;
 }
 
 .heading p a {
   font-size: 2rem;
-  color: var(--red);
+  font-weight: 600;
+  color: var(--black);
 }
 
 .heading p span {
   font-size: 2rem;
-  color: var(--white);
+  font-weight: 600;
+  color: var(--green);
 }
 
 .heading p a:hover {
-  color: var(--white);
+  color: var(--black);
 }
 
 .header {
@@ -133,7 +137,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: var(--black);
+  background-color: var(--green);
 }
 
 .header .flex {
@@ -145,7 +149,7 @@ section {
 
 .header .flex .logo {
   font-size: 2.5rem;
-  color: var(--red);
+  color: var(--black);
   font-weight: 600;
   letter-spacing: 0.8rem;
 }
@@ -159,18 +163,18 @@ section {
 }
 
 .header .flex .navbar a:hover {
-  color: var(--light-green);
+  color: var(--white);
 }
 
 .header .flex .icons > * {
   font-size: 2.5rem;
-  color: var(--white);
+  color: var(--black);
   margin-left: 1.5rem;
   cursor: pointer;
 }
 
 .header .flex .icons > *:hover {
-  color: var(--red);
+  color: var(--white);
 }
 
 @keyframes fadeIn {
@@ -287,7 +291,7 @@ section {
 }
 
 .category .box-container .box:hover {
-  background-color: var(--white);
+  background-color: var(--green);
 }
 
 .category .box-container .box:hover h3 {
@@ -323,19 +327,19 @@ section {
   border: var(--border);
   background-color: var(--black);
   cursor: pointer;
-  color: var(--red);
+  color: var(--green);
   text-align: center;
 }
 
 .products .box-container .box .fa-eye {
   left: 1rem;
-  color: var(--red);
+  color: var(--green);
   background-color: var(--black);
 }
 
 .products .box-container .box .fa-shopping-cart {
   right: 1rem;
-  color: var(--red);
+  color: var(--green);
   background-color: var(--black);
 }
 
@@ -353,7 +357,7 @@ section {
 
 .products .box-container .box .cat {
   font-size: 1.7rem;
-  color: var(--red);
+  color: var(--green);
   font-weight: 600;
 }
 
@@ -365,7 +369,7 @@ section {
   font-size: 2rem;
   margin: 1rem 0;
   font-weight: 600;
-  color: var(--red);
+  color: var(--green);
 }
 
 .products .box-container .box .flex {
@@ -383,7 +387,7 @@ section {
 
 .products .box-container .box .flex .price span {
   font-size: 1.8rem;
-  color: var(--red);
+  color: var(--green);
 }
 
 .products .box-container .box .flex .qty {
@@ -392,7 +396,7 @@ section {
   border: var(--border);
   color: var(--black);
   width: 7rem;
-  background-color: var(--red);
+  background-color: var(--green);
 }
 
 .products .box-container .box .flex .fa-edit {
@@ -928,6 +932,7 @@ section {
 
   .header .flex .logo {
     font-size: 2rem;
+    font-weight: bold;
   }
 
   .products .box-container {
